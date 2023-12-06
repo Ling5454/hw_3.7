@@ -37,6 +37,5 @@ class FragmentList : Fragment() {
 
     private fun onClick(i: Int) {
        val intent=Intent(requireContext(),SecondActivity::class.java)
-    }
-
+    startActivity(intent)}
 }

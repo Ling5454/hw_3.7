@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:background="#462968"
     android:layout_height="match_parent"
-    tools:context=".activity_second">
+    tools:context=".SecondActivity">
 
 
     <TextView
-        android:textSize="40dp"
-        android:text="Name of the song"
+        android:textSize="40sp"
+        android:text="@string/name_of_the_song"
         android:textStyle="italic|bold"
         android:textColor="@color/white"
         app:layout_constraintTop_toTopOf="parent"
